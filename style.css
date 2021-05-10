@@ -1,0 +1,104 @@
+/* BACKGROUND */
+.imgback{
+  width:  100%;
+  height:  100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background: url(background.jpg) no-repeat center top;
+  position: fixed;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* BOX TRASPARENTE */
+.box{
+  margin-top: 2vw;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background-color:rgba(0,0,0,0.3);
+  height: 43vw;
+  width: 62vw;
+  text-align: center;
+}
+#orizontal{
+  margin: 0 auto;
+}
+
+/* LOGO E TITOLO */
+#logo{
+  width:22%; height:auto;
+  margin-top: 7.3%;
+}
+#titolo{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(54, 227, 40);
+  font-size: 1.6vw;
+}
+
+/* SEZIONE NAVIGAZIONE */
+#navbar{
+  background-color:rgb(54, 227, 40);
+  margin: 0 auto;
+  width: 52vw;
+  height: 2.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pulsanti{
+  font-size: 0.7vw;
+}
+
+/* SEZIONE INFO MONOPATTINI */
+.section{
+  font-family: 'Poppins', sans-serif;
+  padding-left: 4.9vw;
+  text-align: left;
+  margin-top:1.3vw;
+ }
+
+ /* NOME MONOPATTINI */
+ .nmono{
+   font-size: 1.1vw;
+   color: rgb(255,255,255);
+ }
+
+/* VIA E STATO CARICA */
+.stato{
+  color: rgba(255,255,255, 0.8);
+  font-size: 0.8vw;
+  padding: 0;
+  margin:0;
+}
+
+/* BARRE DELLA CARICA */
+#carica1{
+  height: 1.7vw;
+  width: 18vw;
+  background-color: rgb(252, 169, 76);
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+#carica2{
+  height: 1.7vw;
+  width: 32vw;
+  background-color: rgb(53, 210, 44);
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+#carica3{
+  height: 1.7vw;
+  width: 8vw;
+  background-color: rgb(192, 63, 60);
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
